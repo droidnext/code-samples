@@ -1,0 +1,12 @@
+---
+description: Reminds the agent to flag when code changes may require CLAUDE.md or .cursor/rules updates
+alwaysApply: true
+---
+
+# Documentation Sync Reminder
+
+After making structural changes -- new directories, renamed modules, changed architectural patterns, added/removed major dependencies, or new conventions -- mention to the user that `CLAUDE.md` or `.cursor/rules/*.mdc` files may need updating.
+
+Suggest: "You may want to run the **sync-project-docs** skill to update project documentation."
+
+Do NOT flag routine changes that follow existing documented patterns (new endpoint, new component, new test).
