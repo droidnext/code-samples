@@ -1,1 +1,4 @@
 .DS_Store
+# skills-lock.json
+.agents
+.env
